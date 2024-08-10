@@ -80,3 +80,4 @@ def topsis(input_file, weights, impacts, result_file):
 
 if __name__ == "__main__":
     topsis(sys.argv[1], list(map(float, sys.argv[2].split(','))), sys.argv[3], sys.argv[4])
+    
